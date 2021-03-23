@@ -1,5 +1,5 @@
-require('dotenv').config()
-const TwetchClient = require('@twetch/sdk')
+require('dotenv').config();
+import * as  TwetchClient from "twetch/sdk";
 import TwetchClientType from '@twetch/sdk'
 import * as Parser from 'rss-parser'
 import * as winston from 'winston'

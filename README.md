@@ -19,10 +19,10 @@
 <br/>
 
 ## Pre-Requisites
-
-These are required for building and runnng the Typescipt project:
+Typescript is required, and these modules are also required for building and running the Typescript project:
 
 ```shell script
+yarn global add typescript
 yarn global add tsc
 yarn global add ts-node-dev
 ```
@@ -125,7 +125,7 @@ List of all current commands:
 audit                          Checks for vulnerabilities in dependencies
 clean                          Remove previous builds and any test cache data
 help                           Show all commands available
-install                        Installs the dependencies for the packge
+install                        Installs the dependencies for the package
 lint                           Runs the standard-js lint tool
 outdated                       Checks for outdated packages via npm
 release                        Full production release (creates release in Github)

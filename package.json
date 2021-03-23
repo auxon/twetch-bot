@@ -1,8 +1,8 @@
 {
-  "name": "twetch-bot",
-  "version": "1.0.0",
-  "description": "A bot that posts TonicPow events to Twetch",
-  "type": "commonjs",
+  "name": "coingoupbot",
+  "version": "0.0.1",
+  "description": "A bot that posts TDXP and other Bitcoin SV signals and alerts.",
+  "type": "module",
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
     "prod": "tsc && ts-node ./build/index.js"
@@ -19,9 +19,13 @@
     {
       "name": "MrZ",
       "url": "https://github.com/mrz1836/"
+    },
+    {
+      "name":  "Auxon0",
+      "url":  "https://github.com/auxon0/"
     }
   ],
-  "keywords": [],
+  "keywords": [ "Twetch", "TDXP", "Bot", "Trade", "Signals", "Alerts" ],
   "author": "",
   "license": "ISC",
   "prettier": {
@@ -35,6 +39,7 @@
     "@types/winston": "^2.4.4",
     "prettier": "^2.2.1",
     "rss-parser": "^3.12.0",
+    "ts-node-dev": "^1.1.6",
     "winston": "^3.3.3"
   },
   "devDependencies": {
