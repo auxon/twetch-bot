@@ -1,5 +1,6 @@
 .env
 .bit
+.vscode
 logs
 build
 node_modules
